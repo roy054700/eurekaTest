@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="goods" />
+        <module name="roy-common" />
+        <module name="roy-eureka" />
+        <module name="roy-goods" />
+        <module name="roy-order" />
+        <module name="roy-user" />
+        <module name="roy-zuul" />
+        <module name="royp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="goods" target="1.8" />
+      <module name="roy-common" target="1.8" />
+      <module name="roy-eureka" target="1.8" />
+      <module name="roy-goods" target="1.8" />
+      <module name="roy-order" target="1.8" />
+      <module name="roy-user" target="1.8" />
+      <module name="roy-zuul" target="1.8" />
+      <module name="royp" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="goods" options="-parameters" />
+      <module name="roy-common" options="-parameters" />
+      <module name="roy-eureka" options="-parameters" />
+      <module name="roy-goods" options="-parameters" />
+      <module name="roy-order" options="-parameters" />
+      <module name="roy-user" options="-parameters" />
+      <module name="roy-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

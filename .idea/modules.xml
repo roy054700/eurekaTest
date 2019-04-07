@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/roy-goods/goods.iml" filepath="$PROJECT_DIR$/roy-goods/goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roy-common/roy-common.iml" filepath="$PROJECT_DIR$/roy-common/roy-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roy-eureka/roy-eureka.iml" filepath="$PROJECT_DIR$/roy-eureka/roy-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roy-order/roy-order.iml" filepath="$PROJECT_DIR$/roy-order/roy-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roy-user/roy-user.iml" filepath="$PROJECT_DIR$/roy-user/roy-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roy-zuul/roy-zuul.iml" filepath="$PROJECT_DIR$/roy-zuul/roy-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/royp.iml" filepath="$PROJECT_DIR$/.idea/royp.iml" />
+    </modules>
+  </component>
+</project>

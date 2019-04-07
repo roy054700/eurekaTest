@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.GoodsMapper">
+  <resultMap id="BaseResultMap" type="com.example.common.model.Goods">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="code_id" jdbcType="VARCHAR" property="codeId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="stock" jdbcType="INTEGER" property="stock" />
+    <result column="state" jdbcType="BIGINT" property="state" />
+  </resultMap>
+  <insert id="insert" parameterType="com.example.common.model.Goods">
+    insert into goods (id, code_id, name, stock, state)
+    values (#{id,jdbcType=INTEGER}, #{codeId,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, 
+      #{stock,jdbcType=INTEGER}, #{state,jdbcType=BIGINT})
+  </insert>
+
+  <select id="selectList" resultMap="BaseResultMap" parameterType="Integer">
+    select * from goods where id = #{id,jdbcType=INTEGER}
+  </select>
+</mapper>
